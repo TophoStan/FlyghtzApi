@@ -1,7 +1,30 @@
-﻿services:
-  webapplication1:
-    image: webapplication1
-    build:
-      context: .
-      dockerfile: WebApplication1/Dockerfile
+﻿name: flyghtz
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: "admin"
+      POSTGRES_PASSWORD: "admin"
+      POSTGRES_DB: "flyghtz"
+    ports:
+      - "5432:5432" 
+    volumes:
+      - db_data:/var/lib/db
+      
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "8080:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    restart: unless-stopped
+    
+volumes:
+  pgadmin_data:
+  db_data:
+  
 

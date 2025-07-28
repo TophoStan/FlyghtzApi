@@ -20,10 +20,13 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Data.Contracts\Data.Contracts.csproj" />
       <ProjectReference Include="..\DataExtracting.Contracts\DataExtracting.Contracts.csproj" />
       <ProjectReference Include="..\DataExtracting.OurAirports\DataExtracting.OurAirports.csproj" />
       <ProjectReference Include="..\DataExtracting.Wikipedia\DataExtracting.Wikipedia.csproj" />
       <ProjectReference Include="..\DataExtracting\DataExtracting.csproj" />
+      <ProjectReference Include="..\Data\Data.csproj" />
+      <ProjectReference Include="..\Environment\Environment.csproj" />
       <ProjectReference Include="..\FlightsApi.Dto\FlightsApi.Dto.csproj" />
     </ItemGroup>
 

@@ -1,3 +1,4 @@
+using Data.DI;
 using DataExtracting.Contracts;
 using DataExtractor;
 using DataExtractor.Wikipedia;
@@ -17,6 +18,9 @@ builder.Services.AddScoped<ListScraper>();
 builder.Services.AddScoped<WikepediaAirportExtractor>();
 
 builder.Services.AddScoped<IDataExtractionController, DataExtractionController>();
+
+// Configure DI dependencies
+builder.Services.ConfigureDb();
 
 builder.Services.AddHttpClient();
 

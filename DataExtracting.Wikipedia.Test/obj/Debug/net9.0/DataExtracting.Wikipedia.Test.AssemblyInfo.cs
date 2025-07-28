@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataExtracting.Wikipedia.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3620e6d3b061dc94ac323688ea9711268d363e67")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataExtracting.Wikipedia.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataExtracting.Wikipedia.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
