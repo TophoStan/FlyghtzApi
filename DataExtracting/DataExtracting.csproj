@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>DataExtractor</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FreeSpire.XLS" Version="14.2.0" />
+      <PackageReference Include="HtmlAgilityPack" Version="1.12.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DataExtracting.Contracts\DataExtracting.Contracts.csproj" />
+      <ProjectReference Include="..\DataExtracting.OurAirports\DataExtracting.OurAirports.csproj" />
+      <ProjectReference Include="..\DataExtracting.Wikipedia\DataExtracting.Wikipedia.csproj" />
+      <ProjectReference Include="..\Domain\Domain.csproj" />
+    </ItemGroup>
+
+</Project>

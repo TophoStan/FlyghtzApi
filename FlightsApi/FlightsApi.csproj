@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FastEndpoints" Version="6.2.0" />
+        <PackageReference Include="FastEndpoints.Swagger" Version="6.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.6"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DataExtracting.Contracts\DataExtracting.Contracts.csproj" />
+      <ProjectReference Include="..\DataExtracting.OurAirports\DataExtracting.OurAirports.csproj" />
+      <ProjectReference Include="..\DataExtracting.Wikipedia\DataExtracting.Wikipedia.csproj" />
+      <ProjectReference Include="..\DataExtracting\DataExtracting.csproj" />
+      <ProjectReference Include="..\FlightsApi.Dto\FlightsApi.Dto.csproj" />
+    </ItemGroup>
+
+</Project>

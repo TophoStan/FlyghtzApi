@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "T/MXPx0e6OM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stant\\RiderProjects\\WebApplication1\\DataExtracting.Wikipedia\\DataExtracting.Wikipedia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stant\\.nuget\\packages\\harfbuzzsharp\\8.3.0.1\\harfbuzzsharp.8.3.0.1.nupkg.sha512",
+    "C:\\Users\\stant\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\8.3.0.1\\harfbuzzsharp.nativeassets.macos.8.3.0.1.nupkg.sha512",
+    "C:\\Users\\stant\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\8.3.0.1\\harfbuzzsharp.nativeassets.win32.8.3.0.1.nupkg.sha512",
+    "C:\\Users\\stant\\.nuget\\packages\\htmlagilitypack\\1.12.2\\htmlagilitypack.1.12.2.nupkg.sha512",
+    "C:\\Users\\stant\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.0\\microsoft.win32.systemevents.9.0.0.nupkg.sha512",
+    "C:\\Users\\stant\\.nuget\\packages\\spire.xls\\15.7.8\\spire.xls.15.7.8.nupkg.sha512",
+    "C:\\Users\\stant\\.nuget\\packages\\system.drawing.common\\9.0.0\\system.drawing.common.9.0.0.nupkg.sha512",
+    "C:\\Users\\stant\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.0\\system.security.cryptography.pkcs.9.0.0.nupkg.sha512",
+    "C:\\Users\\stant\\.nuget\\packages\\system.security.cryptography.xml\\9.0.0\\system.security.cryptography.xml.9.0.0.nupkg.sha512",
+    "C:\\Users\\stant\\.nuget\\packages\\system.security.permissions\\9.0.0\\system.security.permissions.9.0.0.nupkg.sha512",
+    "C:\\Users\\stant\\.nuget\\packages\\system.text.encoding.codepages\\9.0.0\\system.text.encoding.codepages.9.0.0.nupkg.sha512",
+    "C:\\Users\\stant\\.nuget\\packages\\system.windows.extensions\\9.0.0\\system.windows.extensions.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
